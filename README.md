@@ -1,7 +1,4 @@
 # Node.js Technical Assessment - Insurance Policy Management System
-
-A comprehensive Node.js application built with Express.js and MongoDB that handles insurance policy data management, featuring CSV data upload with worker threads, policy search and aggregation APIs, real-time CPU monitoring, and message scheduling capabilities.
-
 ---
 
 ## ✨ Features
