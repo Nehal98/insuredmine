@@ -7,7 +7,6 @@ A comprehensive Node.js application built with Express.js and MongoDB that handl
 ## 📋 Table of Contents
 
 - [Features](#features)
-- [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -16,7 +15,6 @@ A comprehensive Node.js application built with Express.js and MongoDB that handl
 - [Data Model](#data-model)
 - [Worker Threads Implementation](#worker-threads-implementation)
 - [CPU Monitoring](#cpu-monitoring)
-- [License](#license)
 
 ---
 
@@ -31,18 +29,6 @@ A comprehensive Node.js application built with Express.js and MongoDB that handl
 ### Task 2: System Utilities
 - **Real-time CPU Monitoring**: Tracks CPU usage and automatically restarts server at 70% threshold
 - **Message Scheduler**: Schedule messages to be inserted into database at specific day/time using cron jobs
-
----
-
-## 🛠 Tech Stack
-
-- **Runtime**: Node.js
-- **Framework**: Express.js
-- **Database**: MongoDB with Mongoose ODM
-- **File Processing**: csv-parser, multer
-- **Concurrency**: Worker Threads
-- **Scheduling**: node-cron
-- **Environment Variables**: dotenv
 
 ---
 
@@ -345,12 +331,6 @@ const worker = new Worker('./workers/uploadWorker.js', {
 // Processes CSV rows and inserts into MongoDB
 // Runs in parallel without blocking main thread
 ```
-
-**Benefits**:
-- Non-blocking file processing
-- Better CPU utilization
-- Faster data insertion
-- Scalable for large files
 
 ---
 
