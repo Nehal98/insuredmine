@@ -4,20 +4,6 @@ A comprehensive Node.js application built with Express.js and MongoDB that handl
 
 ---
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [API Endpoints](#api-endpoints)
-- [Testing with Postman](#testing-with-postman)
-- [Data Model](#data-model)
-- [Worker Threads Implementation](#worker-threads-implementation)
-- [CPU Monitoring](#cpu-monitoring)
-
----
-
 ## ✨ Features
 
 ### Task 1: Data Management APIs
